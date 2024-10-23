@@ -7,6 +7,8 @@ body {
     width: 80%;
     margin: 0 auto;
     margin-top: 1%;
+    position: relative;
+    height: 95vh;
 }
 .header {
     width: 50%;
@@ -31,4 +33,43 @@ html, body {
     border-right: none;
     margin-bottom: 1%;
     border-color: #626262;
+}
+.footer {
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.est {
+    width: 100%;
+    text-align: center;
+}
+
+.geocities-bottom-lol {
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+
+.images {
+    background: #000;
+    width: 7em;
+    height: 3em;
+    margin-right: 0.5%;
+    background-size: 100%!important;
+    background-repeat: no-repeat!important;
+    
+    
+    
+    
+   
+}
+
+.ie {
+    background: url(./img/ie.jpg);
+}
+
+.pee {
+    background: url(./img/peepee.png);
 }
